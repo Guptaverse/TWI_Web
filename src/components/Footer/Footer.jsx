@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Create a CSS file for styling
+import './Footer.css'; 
 import logo from "./img1.png"
 import instagram from "./instagram.png"
 import dribble from "./dribble.png"

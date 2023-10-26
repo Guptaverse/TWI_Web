@@ -5,7 +5,7 @@ import venuesData from '../../Assets/Data/Data';
 const Venues = () => {
   const [images, setImages] = useState({});
   const [currentPage, setCurrentPage] = useState(1);
-  const venuesPerPage = 4; // Change this to the desired number of venues per page
+  const venuesPerPage = 4; 
 
   useEffect(() => {
     const imagePromises = venuesData.map((venue) => {

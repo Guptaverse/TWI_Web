@@ -1,6 +1,6 @@
 .onboarding-container {
     background-image: url(./images/bg-onboarding.png);
-    background-color: rgba(88, 16, 223, 0.5); /* Background color with 50% opacity (adjust the alpha value as needed) */
+    background-color: rgba(88, 16, 223, 0.5); 
     background-blend-mode: multiply; 
     background-size: cover; 
     background-position: center; 
@@ -77,7 +77,7 @@
     background-color: blue;
     color: #a6edee;
   }
-  /* Responsive layout adjustments */
+
   @media (max-width: 768px) {
     .onboarding-container {
       flex-direction: column;
@@ -87,5 +87,5 @@
     }
   }
   
-  /* Additional media queries for further responsiveness if needed */
+  
   
