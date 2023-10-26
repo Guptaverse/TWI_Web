@@ -1,0 +1,91 @@
+.onboarding-container {
+    background-image: url(./images/bg-onboarding.png);
+    background-color: rgba(88, 16, 223, 0.5); /* Background color with 50% opacity (adjust the alpha value as needed) */
+    background-blend-mode: multiply; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 35rem;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  
+  .left-part {
+    text-align: center;
+    color: #e3e1e7;
+  }
+  
+  .right-part {
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  .form-card {
+    border-radius: 20px;
+    color: #f2d1d1;
+    background-color: #0000007a;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 15rem;
+    
+  }
+  
+  .form-card h3 {
+    text-align: center;
+  }
+  .form-card h4{
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  .form-group {
+    margin: 15px 0;
+    
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    float: left;
+  }
+  
+  form input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+  }
+  
+  form button {
+    width: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #a6edee;
+    color: blue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  form button:hover{
+    background-color: blue;
+    color: #a6edee;
+  }
+  /* Responsive layout adjustments */
+  @media (max-width: 768px) {
+    .onboarding-container {
+      flex-direction: column;
+    }
+    .right-part {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Additional media queries for further responsiveness if needed */
+  

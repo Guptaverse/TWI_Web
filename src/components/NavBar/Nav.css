@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0a0000;
+    color: #f2d1d1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .logo img {
+    max-width: 200px; 
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+  }
+  
+  .profile-icon img{
+    max-width: 40px;
+
+    
+  }
+  
